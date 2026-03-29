@@ -56,7 +56,7 @@ echo "=============================="
 
 echo "▶ Initial Admin Password:"
 cat /var/lib/jenkins/secrets/initialAdminPassword
-
+#sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 echo ""
 echo "Access Jenkins at:"
 echo "http://<SERVER_IP>:8080"
