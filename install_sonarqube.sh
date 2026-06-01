@@ -13,7 +13,7 @@ sudo rm -rf /opt/sonarqube*
 
 echo "👤 Fixing sonar user..."
 sudo userdel -r sonar || true
-sudo useradd -m -d /opt/sonar -s /bin/bash sonar
+sudo useradd -r -g sonar -d /opt/sonarqube -s /bin/bash sonar || true
 
 echo "📥 Downloading SonarQube..."
 cd /opt
