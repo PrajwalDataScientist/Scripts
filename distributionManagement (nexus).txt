@@ -1,12 +1,11 @@
 <distributionManagement>
-  <repository>
-    <id>maven-releases</id>
-    <url>http://44.211.188.143:8081/nexus/content/repositories/maven-releases</url>
-  </repository>
-</distributionManagement>
-         <distributionManagement>
-  <repository>
-    <id>maven-snapshots</id>
-    <url>http://44.211.188.143:8081/nexus/content/repositories/maven-snapshots</url>
-  </repository>
+    <repository>
+        <id>maven-releases</id>
+        <url>http://44.211.188.143:8081/nexus/content/repositories/maven-releases</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>maven-snapshots</id>
+        <url>http://44.211.188.143:8081/nexus/content/repositories/maven-snapshots</url>
+    </snapshotRepository>
 </distributionManagement>
